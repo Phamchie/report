@@ -60,7 +60,7 @@ def report_13_year():
                 rp = session.get(API.conn)
                 cont = rp.text
                 try:
-                        time.sleep(5)
+                        time.sleep(10)
                         print("[✓] Report Done", i, "Random Report")
                 except:
                         exit()
@@ -224,7 +224,6 @@ class user:
                 "@user9163849378",
                 "@user1937038372",
         ]
-        random_user = random.choice(usr)
         name_report = [
                 "Impersonation",
                 "Porn",
