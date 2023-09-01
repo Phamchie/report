@@ -232,11 +232,7 @@ class user:
                 "emotional problem",
                 "Inappropriate content"
         ]
-        reports = {
-                "user": random_user
-                "report", random.choice(name_report)
-        }
-
+        
 class target:
         page_1 = "https://www.tiktok.com/"
         page_2 = "https://www.tiktok.com/support"
